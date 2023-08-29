@@ -8,7 +8,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+CineSpark é a solução perfeita para os momentos de lazer em frente à tela. No cenário atual, onde a oferta de filmes em plataformas de streaming é vasta, tomar uma decisão pode ser desafiador. É aqui que entra o CineSpark, uma aplicação dedicada a simplificar sua escolha. Ao responder a questionários, você receberá recomendações de filmes que se encaixam perfeitamente ao seu gosto atual. Ao aliviar a complexidade da seleção, o CineSpark transforma suas sessões de filme em experiências mais satisfatórias e envolventes
 
 ## Integrantes
 
