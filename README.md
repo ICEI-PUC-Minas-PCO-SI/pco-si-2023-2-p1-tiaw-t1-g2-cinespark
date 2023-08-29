@@ -16,6 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Breno Ferreira Xavier
 * Lucas Gabriel da Silva Pires
 * Rafael Otavio Tenorio
+* Vanessa Caldas Ventosa
 
 ## Orientador
 
