@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Ana Julia De Oliveira Silva
-* Breno Ferreira xavier
+* Breno Ferreira Xavier
 * Lucas Gabriel da Silva Pires
 * Rafael Otavio Tenorio
 
