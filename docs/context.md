@@ -16,7 +16,10 @@ Com o aumento constante da oferta de filmes e séries, os usuários enfrentam de
 
 O CineSpark busca otimizar tempo na hora de selecionar um filme, atuando de forma simples e efetiva, solicitando especificações sobre o conteúdo que o usuário deseja assistir e recomendando tópicos baseados nos filmes préviamente assistidos.
 
-Nos dias de hoje, a variedade de plataformas destinadas à streaming é extremamente ampla, trazendo à tona o sentimento de indecisão na hora de selecionar um filme e o CineSpark será desenvolvido para sanar esse contratempo. Após preencher um simples formulário, o usuário receberá recomendações baseadas em seus gostos e será instruido sobre quais plataformas possuem os conteúdos desejados, auxiliando na decisão do utilizador.
+• Direcionar o usuário para conteúdos de sua preferência.
+• Otimizar tempo e trazer praticidade ao selecionar um filme.
+• Apresentar recomendações baseadas em conteúdos préviamente assistidos pelo usuário.
+• Sanar o contratempo causado pela indecisão ao selecionar o conteúdo que deseja assistir.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
