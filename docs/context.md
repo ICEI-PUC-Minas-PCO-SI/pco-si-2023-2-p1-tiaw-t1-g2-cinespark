@@ -30,7 +30,7 @@ A inspiração para a criação deste aplicativo veio de uma clara consciência 
 
 ## Público-Alvo
 
-O CineSpark é direcionado a todos os amantes de filmes que desejam conhecer e aproveita as novas narrativas de diferentes décadas e gêneros. Nosso público-alvo vai desde adultos até crianças e engloba também tanto pessoas com mais conhecimento no cinema, quanto pessoas sem nenhum conhecimento nessa área. Então se você busca uma experiência diferente tanto na hora de escolher seus filmes, quanto na hora de viajar pelas diferentes eras do cinema, você é o nosso público-alvo.
+O CineSpark é direcionado a todos os amantes de filmes que desejam conhecer e aproveita as novas narrativas de diferentes décadas e gêneros. O público-alvo vai desde crianças até adultos e engloba também tanto pessoas com mais conhecimento no cinema, quanto pessoas sem nenhum conhecimento nessa área. Então, o público alvo desse projeto é alguem que  busca uma experiência diferente tanto na hora de escolher seus filmes, quanto na hora de viajar pelas diferentes eras do cinema. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
