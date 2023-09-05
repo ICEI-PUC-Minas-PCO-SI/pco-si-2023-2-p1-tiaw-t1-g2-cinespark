@@ -23,7 +23,7 @@ Nos dias de hoje, a variedade de plataformas destinadas à streaming é extremam
 
 ## Justificativa
 
-A inspiração para a criação deste aplicativo veio de uma clara consciência de uma lacuna existente: a busca por recomendações personalizadas de filmes costuma ser complexa. Dada a infinidade de opções e a falta de tempo, o aplicativo pretende oferecer uma solução simples. Ele simplifica a seleção de filmes e evita muitas pesquisas, levando em consideração o gosto e a experiência pessoal de cada usuário. Aliando praticidade a uma experiência mais imersiva, o app promete enriquecer o entretenimento pessoal ao oferecer recomendações adaptadas às preferências únicas de cada pessoa. Resumindo, nosso aplicativo nasceu para facilitar a seleção de filmes, garantindo momentos de lazer sob medida..
+A inspiração para a criação deste aplicativo veio de uma clara consciência de uma lacuna existente: a busca por recomendações personalizadas de filmes costuma ser complexa. Dada a infinidade de opções e a falta de tempo, o aplicativo pretende oferecer uma solução simples. Ele simplifica a seleção de filmes e evita muitas pesquisas, levando em consideração o gosto e a experiência pessoal de cada usuário. Aliando praticidade a uma experiência mais imersiva, o app promete enriquecer o entretenimento pessoal ao oferecer recomendações adaptadas às preferências únicas de cada pessoa. Resumindo, nosso aplicativo nasceu para facilitar a seleção de filmes, garantindo momentos de lazer sob medida.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
