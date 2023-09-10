@@ -30,14 +30,15 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Meu nome é Nicolas, um aficionado por filmes de terror dos anos 2000. Quando conheci o CineSpark, encontrei meu parceiro perfeito. O aplicativo me ofereceu recomendações personalizadas que me permitiram redescobrir clássicos esquecidos e novos sustos. Agora, minha busca por filmes assustadores ficou mais emocionante do que nunca! 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+Eu sou o Pedro e adoro rir com filmes de comédia, mas já estava ficando sem opções. O CineSpark veio ao meu resgate! Com suas recomendações personalizadas, encontrei uma lista interminável de comédias que nunca tinha visto. Agora, minhas noites são repletas de risadas graças a este aplicativo incrível! 
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Meu nome é Isadora e sou uma cinéfila apaixonada por diversos gêneros. O CineSpark é como um tesouro para mim. Ele me fornece recomendações personalizadas de filmes, permitindo que eu explore meus gêneros favoritos enquanto filtro aqueles que não se encaixam no meu gosto. Agora, minhas noites de cinema são sempre emocionantes e sem decepções graças a este aplicativo incrível! 
+
+Meu nome é Maria, e adoro assistir filmes em família com meu marido e filhos. O CineSpark se tornou nosso melhor amigo quando se trata de escolher o filme perfeito para todos nós. Suas recomendações personalizadas levam em consideração nossos gostos variados, e agora nossas noites de cinema são cheias de diversão e harmonia. Este aplicativo nos ajudou a criar memórias especiais juntos! 
+
+Meu nome é Fernando, e sempre fui um fã de filmes de ação e ficção científica. No entanto, senti que estava preso em uma bolha de gêneros similares. O CineSpark expandiu meus horizontes ao me oferecer recomendações personalizadas de gêneros que não costumo assistir. Agora, descubro filmes que me proporcionam novas perspectivas de roteiros e enriquecem minha experiência cinematográfica. Este aplicativo me ajudou a diversificar meu gosto e apreciar o cinema de uma maneira totalmente nova! 
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
