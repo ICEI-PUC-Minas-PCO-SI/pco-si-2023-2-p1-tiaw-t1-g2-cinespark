@@ -1,7 +1,8 @@
 # Introdução
 
-Com uma variedade de filmes que oferecem uma escolha ilimitada, o CineSpark torna-se uma ferramenta indispensável e inovadora para todos os amantes do cinema, desde crianças a adultos, conhecedores de cinema e iniciantes. Nosso aplicativo foi projetado para simplificar a difícil tarefa de escolher o filme ideal em diferentes décadas e gêneros.
-A ideia de desenvolver o CineSpark surgiu do reconhecimento de uma lacuna clara: encontrar recomendações personalizadas de filmes pode muitas vezes se transformar em um desafio complexo e demorado. A abundância de conteúdo e a falta de tempo levaram à criação deste aplicativo, que promete simplificar a seleção de filmes e poupar os usuários de pesquisas extensas. Nossa missão é fornecer aos usuários uma experiência única e envolvente que enriquece seu entretenimento, fornecendo recomendações perfeitamente adaptadas às suas preferências pessoais
+Diante da crescente disponibilidade de serviços de streaming e da comum indecisão dos usuários na hora de escolher um filme, a aplicação planejada realizará consultas direcionadas. Essas consultas têm como intuito coletar informações cruciais para aprimorar a experiência de seleção de filmes. O desafio aqui reside na necessidade de tornar a escolha mais simples e eficaz, à medida que o catálogo de opções continua a crescer exponencialmente. Com essa abordagem, a aplicação visa aliviar a indecisão dos usuários, oferecendo recomendações de filmes mais alinhadas com as preferências individuais.
+
+Ao conduzir essas consultas de forma eficiente, a aplicação pretende criar uma experiência cinematográfica verdadeiramente personalizada, adaptada aos gostos únicos de cada usuário. Isso não apenas facilitará a tomada de decisões, mas também permitirá que os usuários desfrutem de sua jornada cinematográfica de uma forma mais satisfatória, descobrindo filmes que ressoem com as preferências e interesses específicos de cada indivíduo.
 
 ## Problema
 
