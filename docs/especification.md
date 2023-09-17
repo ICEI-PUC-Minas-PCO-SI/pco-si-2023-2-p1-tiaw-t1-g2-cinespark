@@ -1,8 +1,26 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A aplicação planejada tem o objetivo de simplificar e melhorar a seleção de filmes para os usuários, considerando a vasta oferta de serviços de streaming disponíveis. Para alcançar esse objetivo, a aplicação coletará informações dos usuários, permitindo assim a geração de recomendações de filmes personalizadas, alinhadas com as preferências individuais de cada usuário. Essa abordagem visa enriquecer a experiência de seleção de filmes, tornando-a mais gratificante e adaptada às necessidades de cada indivíduo.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Quanto às ferramentas de desenvolvimento e tecnologias utilizadas:
+
+Ferramentas de Desenvolvimento:
+
+IDE: Visual Studio Code (Vscode).
+Versionamento de Código: Git.
+Repositório: GitHub Classroom.
+Linguagens e Tecnologias:
+
+Front-End:
+
+HTML e CSS.
+Framework Bootstrap.
+jQuery (para interatividade no front-end).
+Back-End:
+
+JavaScript.
+Local Storage.
+Json Server.
 
 ## Personas
 
