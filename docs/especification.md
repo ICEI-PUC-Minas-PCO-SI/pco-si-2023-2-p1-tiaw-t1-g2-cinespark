@@ -36,15 +36,6 @@ Json Server.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -58,13 +49,6 @@ Meu nome é Maria, e adoro assistir filmes em família com meu marido e filhos. 
 
 Meu nome é Fernando, e sempre fui um fã de filmes de ação e ficção científica. No entanto, senti que estava preso em uma bolha de gêneros similares. O CineSpark expandiu meus horizontes ao me oferecer recomendações personalizadas de gêneros que não costumo assistir. Agora, descubro filmes que me proporcionam novas perspectivas de roteiros e enriquecem minha experiência cinematográfica. Este aplicativo me ajudou a diversificar meu gosto e apreciar o cinema de uma maneira totalmente nova! 
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -73,31 +57,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | |
+|RF-002| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | |
+|RF-003| Ao exibir o filme recomendado, o aplicativo deverá também exibir foto de capa do filme, além de uma sinopse e classificação. | MÉDIA | |
+|RF-004| O aplicativo deverá mostrar onde o filme está disponível para transmissão, exemplo: Star+, Amazon, etc. | MÉDIA | |
+|RF-005| Os usuários poderão visualizar detalhes do filme, exemplo: diretor, elenco, etc. | BAIXA | |
+|RF-006| Os usuários poderão deixar uma classificação e comentários sobre o filme assistido, auxiliando outros usuários na hora de escolher. | MÉDIA | |
+|RF-007| Os usuários poderão favoritar os filmes e acessar o histórico dos filmes já vistos ou pesquisados. | BAIXA | |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Segurança: Os dados pessoais cadastrados pelos usuários serão protegidos por medidas de segurança adequadas. | ALTA |
+|RNF-002| Desempenho: O aplicativo será rápido na hora de fornecer as recomendações, mesmo para grande volume de dados. | ALTA |
+|RNF-003| Disponibilidade: O aplicativo estará sempre disponível, com tempo mínimo de inatividade, seja para manutenção. | ALTA |
+|RNF-004| Usabilidade: O aplicativo será fácil de usar e acessível, para evitar problemas no momento das recomendações. | MÉDIA |
+|RNF-005| Escalabilidade: O aplicativo poderá funcionar sem perda de desempenho em caso de aumento de filmes ou usuários. | ALTA |
+|RNF-006| Compatibilidade com Dispositivos: O aplicativo será compatível com vários tipos de dispositivos. | MÉDIA |
 
 ## Restrições
 
@@ -111,6 +89,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
