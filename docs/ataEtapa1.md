@@ -1,6 +1,7 @@
 Nome:
 
-Ana Júlia:
+Ana Júlia: 
+Fiz o público-alvo, a persona Nicolas, requisitos funcionais e não funcionais. 
 
 Breno Ferreira:
 
