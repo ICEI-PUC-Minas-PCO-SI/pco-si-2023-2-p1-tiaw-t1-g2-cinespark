@@ -19,6 +19,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-(img/CineSpark-Wireframe1.jpg)
-(img/CineSpark-Wireframe2.jpg)
-(img/CineSpark-Wireframe3.jpg)
+![Wireframe 1](img/CineSpark-Wireframe1.jpg)
+![Wireframe 2](img/CineSpark-Wireframe2.jpg)
+![Wireframe 3](img/CineSpark-Wireframe3.jpg)
