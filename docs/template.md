@@ -6,26 +6,30 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Cabeçalho:
+O design do cabeçalho é minimalista, apresentando apenas uma logo, o nome do projeto e o ícone do usuário.
 
+Logo:
+A logo foi criada com base no nome da aplicação, incorporando elementos relacionados a sessões de cinema, como pipoca, óculos 3D e raios de faísca.
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+A cor semelhante a preto (#212529) : Foi escolhida em virtude das sessões de cinema, tendo em vista que as mesmas possuem pouca iluminação.
+
+As cores com tons de azul e vermelho (#29B4F2 e #F13E29) Referem-se ao óculos 3D que está presente na logo.
+
+O tom de amarelo (#F2B749) É a cor da fagulha elétrica presente na logo, e também é a cor da palavra "Spark" no centro do cabeçalho.
+
+A cor branca (#FFFFFF) É o tom utilizado no ícone de usuário e também pelo corpo do template
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+Foi usada sobretudo a fonte e o tamanho padrão, a única divergência é o nome do projeto no cabeçalho. "CineSpark". Nele foi utilizado um h2.
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
+Os ícones presentes em questão são apenas o ícone de usuário e a logo do projeto.
 
 > **Links Úteis**:
 >
