@@ -7,7 +7,7 @@
 
 ## User Flow
 
-![UserFlow](img/UserflowCineSparkA.jpg)
+![UserFlow](img/UserflowB.jpg)
 
 
 
