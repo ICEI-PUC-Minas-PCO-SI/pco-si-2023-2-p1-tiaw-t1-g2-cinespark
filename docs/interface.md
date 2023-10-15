@@ -7,7 +7,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![UserFlow](img/UserFlow.png)
+![UserFlow](img/UserflowCineSparkA.jpg)
 
 
 
