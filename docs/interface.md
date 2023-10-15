@@ -1,10 +1,9 @@
 
 # Projeto de Interface
 
- As principais interfaces do CineSpark foram desenvolvidas afim de resolver a problemática apontada nas especificações do projeto, onde a demora para escolher um filme de acordo com as preferencias do usuário é o maior problema. Acessando a página oficial da CineSpark os utilizadores podem responder um questionário de forma rápida, e receber uma recomendação totalmente personalizada. 
- 
- Através do navegador, os usuários poderão acessar a página da CineSpark, na qual podem efetuar um novo registo ou autenticar-se numa conta já existente. Após a autenticação, os usuários poderão completar um questionário que lhes permitirá personalizar a sua experiência no CineSpark de acordo com as suas preferências. Além disso, os utilizadores poderão entrar no seu perfil, no qual poderão inserir uma foto e fornecer os seus dados pessoais, terão também a capacidade de visualizar a lista de filmes favoritos e consultar o histórico das recomendações cinematográficas. Além disso, os usuários poderão deixar comentários e classificações sobre os filmes recomendados, auxiliando aos outros usuários na hora da escolha. 
+ As principais interfaces do CineSpark foram desenvolvidas afim de resolver a problemática apontada nas especificações do projeto, onde a demora para escolher um filme de acordo com as preferencias do usuário é o maior problema. Acessando a página oficial da CineSpark os utilizadores podem responder um questionário de forma rápida, e receber uma recomendação totalmente personalizada.
 
+ Através do navegador, os usuários poderão acessar a página da CineSpark, na qual podem efetuar um novo registo ou autenticar-se numa conta já existente. Após a autenticação, os usuários poderão completar um questionário que lhes permitirá personalizar a sua experiência no CineSpark de acordo com as suas preferências. Além disso, os utilizadores poderão entrar no seu perfil, no qual poderão inserir uma foto e fornecer os seus dados pessoais, terão também a capacidade de visualizar a lista de filmes favoritos e consultar o histórico das recomendações cinematográficas. Além disso, os usuários poderão deixar comentários e classificações sobre os filmes recomendados, auxiliando aos outros usuários na hora da escolha.
 
 ## User Flow
 
