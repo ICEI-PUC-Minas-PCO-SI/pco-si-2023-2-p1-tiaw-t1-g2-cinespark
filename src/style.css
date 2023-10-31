@@ -9,7 +9,7 @@ body, html {
     margin: 0;
 }
 .bg-lp{
-    background: #CBC3E3;
+    background: #0d0d0d;
 }
 .conteudo {
     display: flex;
@@ -43,7 +43,7 @@ body, html {
     color: #673D73;
 }
 .bgroxo{
-    background: #AC65BF;
+    background: #F2C744;
 }
 .bgroxo a:hover{
     background-color: #673D73;
@@ -51,6 +51,9 @@ body, html {
 .icone{
     color: #AC65BF;
     font-size: 200%;
+}
+.corTexto{
+    color: #F2C744;
 }
 @media (max-width:400px) {
     .divImg{
