@@ -1,0 +1,64 @@
+.amarelo{
+    color: #F2C744;
+}
+a:hover{
+    color: #F2C744;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg-lp{
+    background: #CBC3E3;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.bgGradient{
+    background-color:var(#3500D3);
+}
+.bgLogin{
+    background-color: #E6E6E6;
+}
+.form-container {
+
+    display: block;
+    text-align: center;
+}
+.w-150{
+    width: 150%;
+}
+.fs-50{
+    font-size: 100%;
+}
+.esqueciSenha{
+    text-decoration: none;
+    color: #AC65BF;
+}
+.esqueciSenha a:hover{
+    color: #673D73;
+}
+.bgroxo{
+    background: #AC65BF;
+}
+.bgroxo a:hover{
+    background-color: #673D73;
+}
+.icone{
+    color: #AC65BF;
+    font-size: 200%;
+}
+@media (max-width:400px) {
+    .divImg{
+        width: 75%;
+    }
+}
+@media (max-width:767px) {
+    .divImg{
+        width: 80%;
+    }
+}

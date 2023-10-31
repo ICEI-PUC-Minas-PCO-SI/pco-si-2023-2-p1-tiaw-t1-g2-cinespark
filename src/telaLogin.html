@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/3e4115b899.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-lp">
+    <div class="conteudo">
+        <div class="container">
+            <div class="row justify-content-center border ">
+                <div class="col-md-4">
+                    <img src="assets/img/imgLogin.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-4">
+                    <div class="container centralizar py-5">
+                        <div class="row">
+                            <h3 class="text-center">Login</h3>
+                            <form action="" method="post">
+                            <div class="col-md-12">
+                                <label for="loginEmail" class="py-2 d-block">E-Mail</label>
+                                <input type="email" id="loginEmail" class="w-100 rounded-2" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="loginEmail" class="py-2 d-block">Senha</label>
+                                <input type="password" id="loginEmail" class="w-100 rounded-2" placeholder="Senha">
+                            </div>
+                            <div class="col-md-12 py-2">
+                                <input type="checkbox" id="manterConectado"><label class="fs-50" for="manterConectado">&nbsp;Manter conectado ?</label>
+                                <div class="d-inline esqueciSenha">
+                                    <a href="#" class="esqueciSenha mx-2">Esqueci minha senha</a>
+                                </div>
+                                <div class="col-md-12 py-3">
+                                    <input type="submit" value="Entrar" class="w-100 bgroxo text-white">
+                                </div>
+                            </form>
+                                <div class="col-md-12 ">
+                                    <label for="register">Não tem conta ?</label>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn bgroxo mx-4 text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        Registre-se
+                                    </button>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Registro:</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <label for="NomelRegistro" class="d-block">Nome</label>
+                                                    <input type="text" id="NomelRegistro" class="w-100 rounded-2" placeholder="Nome">
+
+                                                    <label for="emailRegistro" class="d-block">E-mail</label>
+                                                    <input type="email" id="emailRegistro" class="w-100 rounded-2" placeholder="E-Mail">
+
+                                                    <label for="senhaRegistro" class="d-block">Senha</label>
+                                                    <input type="password" id="senhaRegistro" class="w-100 rounded-2" placeholder="Senha">
+
+                                                    <button type="submit" class="btn bgroxo my-2 text-white"data-bs-dismiss="modal">Registrar</button>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12 text-center py-2">
+                                    <h5 class="esqueciSenha">Logar com</h5>
+                                    <i class="icone px-2 fa-brands fa-google"></i>
+                                    <i class="icone px-2 fa-brands fa-facebook"></i>
+                                    <i class="icone px-2 fa-brands fa-apple"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
