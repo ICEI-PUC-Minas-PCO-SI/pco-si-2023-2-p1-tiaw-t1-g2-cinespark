@@ -8,4 +8,4 @@ Lucas Gabriel:
 
 Rafael Otavio: Fiz a página de perfil.
 
-Vanessa Caldas: 
+Vanessa Caldas: Fiz a página de recomendações dos filmes.
