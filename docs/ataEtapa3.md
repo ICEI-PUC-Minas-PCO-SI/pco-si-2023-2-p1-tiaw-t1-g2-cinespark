@@ -4,7 +4,7 @@ Ana Júlia:
 
 Breno Ferreira: 
 
-Lucas Gabriel: 
+Lucas Gabriel: Tela de login e a tela do filme
 
 Rafael Otavio: Fiz a página de perfil.
 
