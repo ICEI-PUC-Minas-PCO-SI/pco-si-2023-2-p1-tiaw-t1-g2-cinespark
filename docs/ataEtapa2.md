@@ -2,7 +2,7 @@ Nomes:
 
 Ana Júlia:
 
-Breno:
+Breno: documentação do template padrão 
 
 Lucas Gabriel: template.html
 
