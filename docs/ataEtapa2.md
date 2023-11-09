@@ -6,6 +6,6 @@ Breno: documentação do template padrão
 
 Lucas Gabriel: template.html
 
-Rafael:
+Rafael: Parte do Wireframe
 
 Vanessa Caudas:
