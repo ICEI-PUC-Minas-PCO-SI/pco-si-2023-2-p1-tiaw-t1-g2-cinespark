@@ -8,4 +8,4 @@ Lucas Gabriel: template.html
 
 Rafael: Parte do Wireframe
 
-Vanessa Caudas:
+Vanessa Caldas: Elaboração do wireframe com o Rafael 
