@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "senha": "sua senha",
+      "email": "seu e-mail",
+      "nome": "seu nome",
+      "imgPerfil": "img/defaultProfile.png"
+    },
+    {
+      "nome": "nome",
+      "email": "email@email.com",
+      "senha": "123",
+      "imgPerfil": "img/defaultProfile.png",
+      "id": 2
+    },
+    {
+      "nome": "Jorge",
+      "email": "jorge@jorge.jorge",
+      "senha": "jorge",
+      "imgPerfil": "img/defaultProfile.png",
+      "id": 3
+    }
+  ],
+  "favoritos": [],
+  "comentarios": [
+    {
+      "id": 1,
+      "imgPerfil": "img/defaultProfile.png",
+      "usuario": "LeonardoBorges2003",
+      "comentario": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deserunt veritatis quasi debitis nemo suscipit alias nobis natus nihil quos?"
+    }
+  ]
+}

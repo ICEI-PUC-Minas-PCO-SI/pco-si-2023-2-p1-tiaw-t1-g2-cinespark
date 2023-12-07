@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/3e4115b899.js" crossorigin="anonymous"></script>
     <title>CineSpark - Perfil</title>
 </head>
-<body>
+<body onload="loadProfile(); loadFavorites();">
     <header class="py-5">
         <div class="container">
             <nav class="navbar navbar-expand-lg fixed-top bg-dark">
@@ -35,20 +35,17 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <img src="img/defaultProfile.png" id="imgPerfil" class="img-fluid" alt="">
+                    <img src="" id="imgPerfil" class="img-fluid" alt="">
                 </div>
                 <div class="col-8">
-                    <div class="row m-auto text-center" >
-                        <h4 id="nomeUsuario">Nome de usuário</h4>
-                    </div>
+                    
                     <div class="row mt-4 text-center" id="dadosUsuario">
-                        <div class="row" style="margin-top: 3%;">
-                            <h5 class="col-6">Nome: <span class="fs-6">seu-nome-aqui</span></h5>
-                            <h5 class="col-6">E-mail: <span class="fs-6">seu-email-aqui</span></h5>
+                        <div class="row" style="margin-top: 8%;">
+                            <h5>Nome: <span class="fs-6" id="nome">seu-nome-aqui</span></h5>
+                            
                         </div>
                         <div class="row" style="margin-top: 10%;">
-                            <h5 class="col-6">Idade: <span class="fs-6">sua-idade-aqui</span></h5>
-                            <h5 class="col-6">Gênero Favorito: <span class="fs-6">gênero-favorito-aqui</span></h5>
+                            <h5>E-mail: <span class="fs-6" id="email">seu-email-aqui</span></h5>
                         </div>                                
                     </div>
                 </div>
@@ -57,39 +54,63 @@
                 <div class="border border-dark mb-1 mt-3">
 
                 </div>
-                <div class="row" id="favoritos">
-                    <h4>Favoritos</h4>
+                <h4>Favoritos</h4>
+                <div class="row" id="favoritos">                    
                     <div class="row">
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
+
                     </div>
                 </div>
-                <div class="row mt-3" id="historico">
-                    <h4>Histórico</h4>
-                    <div class="row">
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                        <div class="col-3"><a href="telaFilme.html"><img src="img/imagePlaceholder.png" class="img-fluid" alt=""></a></div>
-                    </div>
-                </div>
-                <div class="row mt-3" id="comentarios">
-                    <h4>Comentários</h4>
-                    <div class="container">
-                        <img src="img/defaultProfile.png" class="img-fluid" style="width: 8%;" alt="">
-                        <span class="fs-4">LeonardoBorges2003</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deserunt veritatis quasi debitis nemo suscipit alias nobis natus nihil quos?</p>
-                    </div>
-                    
-                    <div class="container">
-                        <img src="img/defaultProfile.png" class="img-fluid" style="width: 8%;" alt="">
-                        <span class="fs-4">José_Batista01</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, ab!</p>
-                    </div>
-                </div>
+                
             </div>
+            
+            <script>
+                const currentUser = 1;
+                function loadProfile(){
+                    fetch(`http://localhost:3000/usuarios?id=${currentUser}`)
+                .then((res)=> { res.json()
+                    .then( data => carregarPerfil(data))});
+
+
+                    function carregarPerfil(dados){
+                        document.getElementById("imgPerfil").setAttribute('src', dados[0].imgPerfil);
+                        document.getElementById("nome").innerHTML = dados[0].nome;
+                        document.getElementById("email").innerHTML = dados[0].email;
+
+                        
+                    }
+                }
+
+                function loadFavorites(){
+                    fetch(`http://localhost:3000/favoritos?userid=${currentUser}`)
+                    .then((res)=> { res.json()
+                    .then ( data => carregarFavoritos(data))});
+                    
+                    function carregarFavoritos(dados) {
+                    var contFavoritos = 0;
+                    
+                    const htmlFavoritos = dados.map((data) => {
+                        
+                        if (contFavoritos != 0 && contFavoritos % 4 === 0) {
+                            return `
+                            <div class="row">
+                                <div class="col-3"><a href="${data.request}"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
+                            </div>
+                            `;
+                        } else {
+                            return `
+                                <div class="col-3"><a href="${data.request}"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
+                            `;
+                        }
+                        contFavoritos++;
+                    });
+                    
+                    document.getElementById('favoritos').innerHTML = htmlFavoritos;
+                    }
+                }
+                
+                        
+            </script>
+
         </section>
     </main>
 

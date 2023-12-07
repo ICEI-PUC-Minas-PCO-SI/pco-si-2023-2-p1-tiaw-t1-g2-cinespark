@@ -55,6 +55,18 @@ body, html {
 .corTexto{
     color: #F2C744;
 }
+.btnfav{
+    background: transparent;
+    border: none;
+    margin: 0px;
+    font-size: 40px;
+    outline: none;
+    color: grey;
+}
+.btnfav i:hover{
+    cursor: pointer;
+
+}
 @media (max-width:400px) {
     .divImg{
         width: 75%;
