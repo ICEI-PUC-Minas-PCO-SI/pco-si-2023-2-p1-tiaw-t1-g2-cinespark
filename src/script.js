@@ -42,10 +42,10 @@ function recomendar() {
 
                                 resposta.innerHTML +=
                                     `
-                                <div class="col-sm-12 col-md-3"> 
+                                <div onclick="passarParam('${filme}', '${posterUrl}')" class="col-sm-12 col-md-3"> 
                                 <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  >
+                                    <a href="telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
                                 </div>
                             </div>
                                 `;
@@ -82,10 +82,10 @@ function recomendar() {
 
                                 resposta.innerHTML +=
                                     `
-                                <div class="col-sm-12 col-md-3"> 
+                                <div onclick="passarParam('${filme}', '${posterUrl}')" class="col-sm-12 col-md-3"> 
                                 <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  >
+                                    <a href="telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
                                 </div>
                             </div>
                                 `;
@@ -116,4 +116,87 @@ function shuffle(array) {
     }
 
     return array;
+}
+
+function passarParam(filme, posterUrl){
+    sessionStorage.setItem("tituloFilme", filme);
+    sessionStorage.setItem("capaFilme", posterUrl);
+}
+function loadProfile(){
+    fetch(`http://localhost:3000/usuarios?id=${currentUser}`)
+.then((res)=> { res.json()
+    .then( data => carregarPerfil(data))});
+
+
+    function carregarPerfil(dados){
+        document.getElementById("imgPerfil").setAttribute('src', dados[0].imgPerfil);
+        document.getElementById("nome").innerHTML = dados[0].nome;
+        document.getElementById("email").innerHTML = dados[0].email;
+
+        
+    }
+}
+
+function loadFavorites(){
+    fetch(`http://localhost:3000/favoritos?userid=${currentUser}`)
+    .then((res)=> { res.json()
+    .then ( data => carregarFavoritos(data))});
+    
+    function carregarFavoritos(dados) {
+    var contFavoritos = 0;
+    
+    const htmlFavoritos = dados.map((data) => {
+        
+        if (contFavoritos != 0 && contFavoritos % 4 === 0) {
+            return `
+            <div class="row">
+                <div class="col-3"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
+            </div>
+            `;
+        } else {
+            return `
+                <div class="col-3"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
+            `;
+        }
+        contFavoritos++;
+    });
+    
+    document.getElementById('favoritos').innerHTML = htmlFavoritos;
+    }
+}
+function checarFavorito (){
+    fetch(`http://localhost:3000/favoritos?userid=${userid}&imgCapa=${imgCapa}`)
+    .then(response => response.json())
+    .then(data => {
+        for (let i = 0; i<data.length; i++) {
+            marcarFav(data[i].imgCapa);
+        }
+    });
+
+    function marcarFav(dados){
+        if(dados == imgCapa){
+            btnvar.style.color = "yellow";
+        }
+    }
+}
+function Toggle() {
+    if (btnvar.style.color == "yellow") {
+        $.ajax({
+            method: 'DELETE',
+            url: url
+        })
+        btnvar.style.color = "gray";
+    } else {
+        btnvar.style.color = "yellow";
+        fetch(`http://localhost:3000/favoritos`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(json => console.log(json))
+        .catch(error => console.error('Error:', error));
+    }
 }

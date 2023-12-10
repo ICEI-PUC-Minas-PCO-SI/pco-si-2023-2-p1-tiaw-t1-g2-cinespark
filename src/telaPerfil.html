@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3e4115b899.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
     <title>CineSpark - Perfil</title>
 </head>
 <body onload="loadProfile(); loadFavorites();">
@@ -64,51 +65,7 @@
             </div>
             
             <script>
-                const currentUser = sessionStorage.getItem('userid');
-                function loadProfile(){
-                    fetch(`http://localhost:3000/usuarios?id=${currentUser}`)
-                .then((res)=> { res.json()
-                    .then( data => carregarPerfil(data))});
-
-
-                    function carregarPerfil(dados){
-                        document.getElementById("imgPerfil").setAttribute('src', dados[0].imgPerfil);
-                        document.getElementById("nome").innerHTML = dados[0].nome;
-                        document.getElementById("email").innerHTML = dados[0].email;
-
-                        
-                    }
-                }
-
-                function loadFavorites(){
-                    fetch(`http://localhost:3000/favoritos?userid=${currentUser}`)
-                    .then((res)=> { res.json()
-                    .then ( data => carregarFavoritos(data))});
-                    
-                    function carregarFavoritos(dados) {
-                    var contFavoritos = 0;
-                    
-                    const htmlFavoritos = dados.map((data) => {
-                        
-                        if (contFavoritos != 0 && contFavoritos % 4 === 0) {
-                            return `
-                            <div class="row">
-                                <div class="col-3"><a href="${data.request}"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
-                            </div>
-                            `;
-                        } else {
-                            return `
-                                <div class="col-3"><a href="${data.request}"><img src="${data.imgCapa}" class="img-fluid" alt=""></a></div>
-                            `;
-                        }
-                        contFavoritos++;
-                    });
-                    
-                    document.getElementById('favoritos').innerHTML = htmlFavoritos;
-                    }
-                }
-                
-                        
+                const currentUser = sessionStorage.getItem('userid');                        
             </script>
 
         </section>

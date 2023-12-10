@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/3e4115b899.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9c6813186b.js" crossorigin="anonymous"></script>
     <script src="jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
     <title>CineSpark - Filme</title>
 </head>
 <body onload="checarFavorito()">
@@ -41,7 +42,7 @@
                     <div class="col-md-8">
                         <div class="col-md-8">
                             <h3 class="text-center pb-3">Título</h3>
-                            <h5 class="text-center pb-3">Lorem ipsum dolor sit amet.</h5>
+                            <h5 id="title" class="text-center pb-3">Lorem ipsum dolor sit amet.</h5>
                         </div>
                         <div class="col-md-8">
                             <h3 class="text-center py-3">Detalhes</h3>
@@ -57,28 +58,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h3 class="text-center">Links</h3>
-                    <div id="linkFilmes">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col pt-3">
-                    <div id="comentariosFilmes"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h3 class="text-center pt-3">Comentários</h3>
-                </div>
-            </div>
                         
             <script>
+                const capa = document.getElementById('imgCapa');
+                const titulo = document.getElementById('title');
                 const currentUser = sessionStorage.getItem('userid');
+                capa.setAttribute('src', sessionStorage.getItem('capaFilme'));
+                titulo.innerHTML = sessionStorage.getItem('tituloFilme');
                 var imgCapa = document.getElementById('imgCapa').getAttribute('src');
                 var userid = currentUser;
                 var data = {
@@ -87,41 +73,8 @@
                 userid: userid
             };
 
-            function checarFavorito (){
-                fetch(`http://localhost:3000/favoritos?userid=${userid}`)
-                .then(response => response.json())
-                .then(data => marcarFav(data[0].imgCapa))
-
-                function marcarFav(dados){
-                    if(dados == imgCapa){
-                        btnvar.style.color = "yellow";
-                    }
-                }
-            }
-            
             var btnvar = document.getElementById('btnf1');
-            var url = `http://localhost:3000/favoritos/${userid}`;
-            function Toggle() {
-                if (btnvar.style.color == "yellow") {
-                    $.ajax({
-                        method: 'DELETE',
-                        url: url
-                    })
-                    btnvar.style.color = "gray";
-                } else {
-                    btnvar.style.color = "yellow";
-                    fetch(`http://localhost:3000/favoritos`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(data)
-                    })
-                    .then(response => response.json())
-                    .then(json => console.log(json))
-                    .catch(error => console.error('Error:', error));
-                }
-            }
+            var url = `http://localhost:3000/favoritos/${userid}`;            
             </script>
         </section>
     </main>

@@ -23,7 +23,12 @@
     }
   ],
   "favoritos": [
-    
+    {
+      "imgCapa": "https://image.tmdb.org/t/p/w500/AbkZUxkVZU8XhoRGkknu6cZUark.jpg",
+      "request": "",
+      "userid": "2",
+      "id": 1
+    }
   ],
   "comentarios": [
     {
