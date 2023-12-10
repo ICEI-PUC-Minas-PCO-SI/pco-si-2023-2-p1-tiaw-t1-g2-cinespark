@@ -64,7 +64,7 @@
             </div>
             
             <script>
-                const currentUser = 1;
+                const currentUser = sessionStorage.getItem('userid');
                 function loadProfile(){
                     fetch(`http://localhost:3000/usuarios?id=${currentUser}`)
                 .then((res)=> { res.json()

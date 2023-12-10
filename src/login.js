@@ -8,6 +8,7 @@ async function login() {
     const usuarios = await response.json();
 
     const usuarioAutenticado = usuarios.find(user => user.email === email && user.senha === senha);
+    sessionStorage.setItem("userid", usuarioAutenticado.id);
 
     if (usuarioAutenticado) {
         alert('Login bem-sucedido!');

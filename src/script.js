@@ -33,6 +33,7 @@ function recomendar() {
                             const filmes = data.results;
                             const filmesEmbaralhados = shuffle(filmes);
                             const primeiros8Filmes = filmesEmbaralhados.slice(0, 8);
+                            var idCont = 1;
 
                             primeiros8Filmes.forEach(movie => {
                                 const filme = movie.title;
@@ -42,12 +43,13 @@ function recomendar() {
                                 resposta.innerHTML +=
                                     `
                                 <div class="col-sm-12 col-md-3"> 
-                                <div class="p-2"><h6>${filme}</h6></div>
+                                <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <img src="${posterUrl}" class="img-fluid pt-2" alt=""  >
+                                    <img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  >
                                 </div>
                             </div>
                                 `;
+                                idCont++;
                             });
                         } else {
                             resposta.innerHTML = "Nenhum filme encontrado para os critérios selecionados.";
@@ -71,6 +73,7 @@ function recomendar() {
                             const filmes = data.results;
                             const filmesEmbaralhados = shuffle(filmes);
                             const primeiros8Filmes = filmesEmbaralhados.slice(0, 8);
+                            var idCont = 1;
 
                             primeiros8Filmes.forEach(movie => {
                                 const filme = movie.title;
@@ -80,12 +83,13 @@ function recomendar() {
                                 resposta.innerHTML +=
                                     `
                                 <div class="col-sm-12 col-md-3"> 
-                                <div class="p-2"><h6>${filme}</h6></div>
+                                <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <img src="${posterUrl}" class="img-fluid pt-2" alt=""  >
+                                    <img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  >
                                 </div>
                             </div>
                                 `;
+                                idCont++;
                             });
                         } else {
                             resposta.innerHTML = "Nenhum filme encontrado para os critérios selecionados.";
