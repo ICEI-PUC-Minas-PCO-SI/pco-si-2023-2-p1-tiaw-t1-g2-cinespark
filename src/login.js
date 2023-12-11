@@ -13,7 +13,7 @@ async function login() {
     if (usuarioAutenticado) {
         alert('Login bem-sucedido!');
         // Redirecionar para outra página após o login
-        window.location.href = './telaQuestionario.html'; // Substitua 'pagina_solicitada.html' pelo caminho da sua página
+        window.location.href = './Telaquestionario.html'; // Substitua 'pagina_solicitada.html' pelo caminho da sua página
     } else {
         alert('Email ou senha incorretos');
     }
