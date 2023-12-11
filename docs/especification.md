@@ -57,13 +57,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | |
-|RF-002| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | |
-|RF-003| Ao exibir o filme recomendado, o aplicativo deverá também exibir foto de capa do filme, além de uma sinopse e classificação. | MÉDIA | |
-|RF-004| O aplicativo deverá mostrar onde o filme está disponível para transmissão, exemplo: Star+, Amazon, etc. | MÉDIA | |
-|RF-005| Os usuários poderão visualizar detalhes do filme, exemplo: diretor, elenco, etc. | BAIXA | |
-|RF-006| Os usuários poderão deixar uma classificação e comentários sobre o filme assistido, auxiliando outros usuários na hora de escolher. | MÉDIA | |
-|RF-007| Os usuários poderão favoritar os filmes e acessar o histórico dos filmes já vistos ou pesquisados. | BAIXA | |
+|RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | |
+|RF-002| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | |
+|RF-003| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | |
+|RF-004| Ao exibir o filme recomendado, o aplicativo deverá também exibir foto de capa do filme, além de uma sinopse e classificação. | MÉDIA | |
+|RF-005| O aplicativo deverá mostrar onde o filme está disponível para transmissão, exemplo: Star+, Amazon, etc. | MÉDIA | |
+|RF-006| Os usuários poderão visualizar detalhes do filme, exemplo: diretor, elenco, etc. | BAIXA | |
+|RF-007| Os usuários poderão deixar uma classificação e comentários sobre o filme assistido, auxiliando outros usuários na hora de escolher. | MÉDIA | |
+|RF-008| Os usuários poderão favoritar os filmes e acessar o histórico dos filmes já vistos ou pesquisados. | BAIXA | |
 
 
 ### Requisitos não Funcionais
