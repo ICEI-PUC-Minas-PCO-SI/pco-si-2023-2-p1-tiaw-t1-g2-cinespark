@@ -99,9 +99,9 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que gosta de filmes de terror dos anos 2000. |
+| 1             | Você é uma pessoa que gosta de filmes de terror. |
 | 2             | Você é uma pessoa que deseja assistir filmes com o ator Tom Holland. |
-| 3             | Você é uma pessoa que gosta de filmes de romance antigos. |
+| 3             | Você é uma pessoa que gosta de filmes de romance. |
 
 ## Registro de Testes de Usabilidade
 
@@ -109,13 +109,13 @@ Cenário 1: Você é uma pessoa que gosta de filmes de terror dos anos 2000.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-| 4       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 02.73 segundos                  |
+| 2       | SIM             | 5                    | 02.81 segundos                  |
+| 3       | SIM             | 5                    | 02.65 segundos                  |
+| 4       | SIM             | 5                    | 02.56 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 0%           | 0                | 02.68 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.73 segundos |
 
 
     Comentários dos usuários: Achei o site muito bom e fácil de usar, cumpriu muito bem com a minha solicitação.
@@ -125,26 +125,26 @@ Cenário 2: Você é uma pessoa que deseja assistir filmes com o ator Tom Hollan
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-| 4       | SIM             | 5                    | 36.21 segundos                          |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| 1       | SIM             | 5                    | 01.88 segundos                          |
+| 2       | SIM             | 5                    | 01.75 segundos                          |
+| 3       | SIM             | 5                    | 01.80 segundos                          |
+| 4       | SIM             | 5                    | 01.82 segundos                          |
+| **Média**     | 0%           | 0                | 01.81 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 01.80 segundos |
 
 
     Comentários dos usuários: O site é fácil de usar, e muito rápido, otimiza tempo na hora de escolher um filme.
 
-Cenário 3: Você é uma pessoa que gosta de filmes de romance antigos.
+Cenário 3: Você é uma pessoa que gosta de filmes de romance.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-| 4       | SIM             | 5                    | 36.21 segundos                          |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| 1       | SIM             | 5                    | 01.49 segundos                          |
+| 2       | SIM             | 4                   | 01.55 segundos                          |
+| 3       | SIM             | 5                    | 01.43 segundos                          |
+| 4       | SIM             | 5                    | 01.25 segundos                          |
+| **Média**     | 0%           | 0                | 01.43 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 01.43 segundos |
 
     Comentários dos usuários: O site cumpre com a proposta, mas senti falta de mais recomendações.
     
@@ -155,4 +155,4 @@ Tomando como base os resultados obtidos, foi possível verificar que a aplicaç�
 
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos que todos realizam a sua função com praticamente o mesmo tempo.
+Com relação ao tempo para conclusão de cada tarefa/cenário, notamos que todos realizam a sua função com praticamente o mesmo tempo e de forma muito rápida.
