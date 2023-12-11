@@ -10,7 +10,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Artefato Craido |
+|ID    | Descrição do Requisito  | Prioridade | Artefato Criado |
 |------|-----------------------------------------|----| ----|
 |RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | login.js |
 |RF-002| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | Telaquestionario.html |
