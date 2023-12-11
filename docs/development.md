@@ -4,31 +4,21 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|ID    | Descrição do Requisito  | Prioridade | Artefato Craido |
+|------|-----------------------------------------|----| ----|
+|RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | login.js |
+|RF-002| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | Telaquestionario.html |
+|RF-003| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | script.js |
+|RF-004| Ao exibir o filme recomendado, o aplicativo deverá também exibir foto de capa do filme, além de uma sinopse e classificação. | MÉDIA | telaFilme.html |
+|RF-006| Os usuários poderão visualizar detalhes do filme, exemplo: diretor, elenco, etc. | BAIXA | telaFilme.html |
+|RF-007| Os usuários poderão deixar uma classificação e comentários sobre o filme assistido, auxiliando outros usuários na hora de escolher. | MÉDIA | telaFilme.html |
+|RF-008| Os usuários poderão favoritar os filmes e acessar o histórico dos filmes já vistos ou pesquisados. | BAIXA | telaPerfil.html |
 
 ## Descrição das estruturas:
 
