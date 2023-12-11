@@ -114,7 +114,7 @@ Cenário 1: Você é uma pessoa que gosta de filmes de terror dos anos 2000.
 | 3       | SIM             | 5                    | 02.65 segundos                  |
 | 4       | SIM             | 5                    | 02.56 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 02.68 segundos                           |
+| **Média**     | 100%           | 5                | 02.68 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.73 segundos |
 
 
@@ -129,7 +129,7 @@ Cenário 2: Você é uma pessoa que deseja assistir filmes com o ator Tom Hollan
 | 2       | SIM             | 5                    | 01.75 segundos                          |
 | 3       | SIM             | 5                    | 01.80 segundos                          |
 | 4       | SIM             | 5                    | 01.82 segundos                          |
-| **Média**     | 0%           | 0                | 01.81 segundos                           |
+| **Média**     | 100%           | 5                | 01.81 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 01.80 segundos |
 
 
@@ -143,7 +143,7 @@ Cenário 3: Você é uma pessoa que gosta de filmes de romance.
 | 2       | SIM             | 4                   | 01.55 segundos                          |
 | 3       | SIM             | 5                    | 01.43 segundos                          |
 | 4       | SIM             | 5                    | 01.25 segundos                          |
-| **Média**     | 0%           | 0                | 01.43 segundos                           |
+| **Média**     | 95%           | 4,75                | 01.43 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 01.43 segundos |
 
     Comentários dos usuários: O site cumpre com a proposta, mas senti falta de mais recomendações.
