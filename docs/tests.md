@@ -33,7 +33,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Inserir preferêcias para a recomedação **
+**Caso de Teste** | **CT02 - Inserir preferêcias para a recomedação**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa gênero, país, indicado ou não ao óscar e ator para gerar a recomendação.
 **Requisitos associados** | RF-002
@@ -41,7 +41,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Selecionar a opção desejda no formulário de preferências.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Inserir comentários nos filmes **
+**Caso de Teste** | **CT03 - Inserir comentários nos filmes**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário faz algum comentário no filme assistido.
 **Requisitos associados** | RF-007
@@ -59,23 +59,31 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Esta seção apresenta as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido.
 
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-001 - Usuários fazem o seu cadastro.|
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*TC-02 - Selecionar preferências*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-004 - Usuários selecionam a sua preferêcia para gerar a recomedação.|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*TC-03 - Fazer comentário*                                         |
+|---|---|
+|Requisito Associado | RF-004 - Usuários comentam no filme.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*TC-04 - Favoritar um filme*                                         |
+|---|---|
+|Requisito Associado | RF-004 - Usuários adicionam um filme a sua lista de favoritos.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Os resultados dos testes na aplicação foram todos com sucesso. Otimizamos a aplicação afim de facilitar para o usuário na hora de gerar a recomendação do filme, com isso, removemos a funcionalidade RF-005 e mantivemos todas as outra. 
 
 
 ## Testes de unidade automatizados (Opcional)
