@@ -45,7 +45,7 @@ function recomendar() {
                                 <div onclick="passarParam('${filme}', '${posterUrl}')" class="col-sm-12 col-md-3"> 
                                 <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <a href="telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
+                                    <a href="./telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
                                 </div>
                             </div>
                                 `;
@@ -85,7 +85,7 @@ function recomendar() {
                                 <div onclick="passarParam('${filme}', '${posterUrl}')" class="col-sm-12 col-md-3"> 
                                 <div class="p-2"><h6 id="titulo${idCont}">${filme}</h6></div>
                                 <div  class="d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2">
-                                    <a href="telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
+                                    <a href="./telaFilme.html"><img id="imgCapa${idCont}" src="${posterUrl}" class="img-fluid pt-2" alt=""  ></a>
                                 </div>
                             </div>
                                 `;
