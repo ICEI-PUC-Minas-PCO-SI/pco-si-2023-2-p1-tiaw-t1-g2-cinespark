@@ -27,18 +27,34 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Procedimento**  | 1) Usuário informa seus dados
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Resultado esperado** | Prosseguir para a recomendação do filme.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Inserir preferêcias para a recomedação **
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário informa gênero, país, indicado ou não ao óscar e ator para gerar a recomendação.
+**Requisitos associados** | RF-002
+**Resultado esperado** | Inserção das preferências do usuário
+**Dados de entrada** | Selecionar a opção desejda no formulário de preferências.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Inserir comentários nos filmes **
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário faz algum comentário no filme assistido.
+**Requisitos associados** | RF-007
+**Resultado esperado** | Inserção do comentário
+**Dados de entrada** | Comentário do usuário.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Favoritar filme**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário coloca um filme na lista de favoritos.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Favoritar um filme, adicionado-o a sua lista de favoritos.
+**Dados de entrada** | Selecionar se o filme é ou não favorito.
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
