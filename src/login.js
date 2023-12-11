@@ -4,7 +4,7 @@ async function login() {
     const email = document.getElementById('loginEmail').value;
     const senha = document.getElementById('loginSenha').value;
 
-    const response = await fetch('http://localhost:3000/usuarios');
+    const response = await fetch('https://db-json-cinespark.vercel.app/usuarios');
     const usuarios = await response.json();
 
     const usuarioAutenticado = usuarios.find(user => user.email === email && user.senha === senha);
@@ -30,7 +30,7 @@ async function registrar() {
         senha: senha
     };
 
-    const response = await fetch('http://localhost:3000/usuarios', {
+    const response = await fetch('https://db-json-cinespark.vercel.app/usuarios', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

@@ -123,7 +123,7 @@ function passarParam(filme, posterUrl){
     sessionStorage.setItem("capaFilme", posterUrl);
 }
 function loadProfile(){
-    fetch(`http://localhost:3000/usuarios?id=${currentUser}`)
+    fetch(`https://db-json-cinespark.vercel.app/usuarios?id=${currentUser}`)
 .then((res)=> { res.json()
     .then( data => carregarPerfil(data))});
 
@@ -138,7 +138,7 @@ function loadProfile(){
 }
 
 function loadFavorites(){
-    fetch(`http://localhost:3000/favoritos?userid=${currentUser}`)
+    fetch(`https://db-json-cinespark.vercel.app/favoritos?userid=${currentUser}`)
     .then((res)=> { res.json()
     .then ( data => carregarFavoritos(data))});
     
@@ -165,7 +165,7 @@ function loadFavorites(){
     }
 }
 function checarFavorito (){
-    fetch(`http://localhost:3000/favoritos?userid=${userid}&imgCapa=${imgCapa}`)
+    fetch(`https://db-json-cinespark.vercel.app/favoritos?userid=${userid}&imgCapa=${imgCapa}`)
     .then(response => response.json())
     .then(data => {
         for (let i = 0; i<data.length; i++) {
@@ -188,7 +188,7 @@ function Toggle() {
         btnvar.style.color = "gray";
     } else {
         btnvar.style.color = "yellow";
-        fetch(`http://localhost:3000/favoritos`, {
+        fetch(`https://db-json-cinespark.vercel.app/favoritos`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
