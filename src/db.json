@@ -6,20 +6,6 @@
       "email": "seu e-mail",
       "nome": "seu nome",
       "imgPerfil": "img/defaultProfile.png"
-    },
-    {
-      "nome": "nome",
-      "email": "email@email.com",
-      "senha": "123",
-      "imgPerfil": "img/defaultProfile.png",
-      "id": 2
-    },
-    {
-      "nome": "Jorge",
-      "email": "jorge@jorge.jorge",
-      "senha": "jorge",
-      "imgPerfil": "img/defaultProfile.png",
-      "id": 3
     }
   ],
   "favoritos": [
