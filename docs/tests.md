@@ -36,15 +36,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 **Dados de entrada** | Selecionar a opção desejda no formulário de preferências.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Inserir comentários nos filmes**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário faz algum comentário no filme assistido.
-**Requisitos associados** | RF-007
-**Resultado esperado** | Inserção do comentário
-**Dados de entrada** | Comentário do usuário.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT04 - Favoritar filme**
+**Caso de Teste** | **CT03 - Favoritar filme**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário coloca um filme na lista de favoritos.
 **Requisitos associados** | RF-008
@@ -63,17 +55,12 @@ Esta seção apresenta as evidências dos testes de software realizados no siste
 
 |*Caso de Teste*                                 |*TC-02 - Selecionar preferências*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários selecionam a sua preferêcia para gerar a recomedação.|
+|Requisito Associado | RF-002 - Usuários selecionam a sua preferêcia para gerar a recomedação.|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*TC-03 - Fazer comentário*                                         |
+|*Caso de Teste*                                 |*TC-03 - Favoritar um filme*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários comentam no filme.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
-|*Caso de Teste*                                 |*TC-04 - Favoritar um filme*                                         |
-|---|---|
-|Requisito Associado | RF-004 - Usuários adicionam um filme a sua lista de favoritos.|
+|Requisito Associado | RF-007 - Usuários adicionam um filme a sua lista de favoritos.|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 ## Avaliação dos Testes de Software
