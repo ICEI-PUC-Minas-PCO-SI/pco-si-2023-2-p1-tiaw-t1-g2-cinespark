@@ -51,17 +51,17 @@ Esta seção apresenta as evidências dos testes de software realizados no siste
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-001 - Usuários fazem o seu cadastro.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1vqn6s3kqzLmB3M0eYj9mjQcZA2K3n8Ns/view| 
 
 |*Caso de Teste*                                 |*TC-02 - Selecionar preferências*                                         |
 |---|---|
 |Requisito Associado | RF-002 - Usuários selecionam a sua preferêcia para gerar a recomedação.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1vqn6s3kqzLmB3M0eYj9mjQcZA2K3n8Ns/view | 
 
 |*Caso de Teste*                                 |*TC-03 - Favoritar um filme*                                         |
 |---|---|
 |Requisito Associado | RF-007 - Usuários adicionam um filme a sua lista de favoritos.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1vqn6s3kqzLmB3M0eYj9mjQcZA2K3n8Ns/view | 
 
 ## Avaliação dos Testes de Software
 
