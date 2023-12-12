@@ -4,7 +4,7 @@ Ana Júlia: funcionalidades da tela questionário, API, Get das informações pr
 
 Breno Ferreira:
 
-Lucas Gabriel: 
+Lucas Gabriel: Funcionalidade de login/Registro
 
 Rafael Otavio: Fiz a funcionalidade de favoritos.
 
