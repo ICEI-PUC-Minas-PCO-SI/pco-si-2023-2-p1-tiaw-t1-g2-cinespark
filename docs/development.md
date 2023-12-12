@@ -29,11 +29,40 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+
+## Tela login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Email          | Texto             | Email do usuário                          | magynifico.kkskj@gmail.com                     |
+| Senha          | Texto             | Senha do usuário                          | ana1212                                        |
+| Entrar         | Botão             | Entrar na conta                           | "Entrar"                                       |
+| Cadastrar      | Botão             | Criar uma conta                           | "Regsitrar"                                    |
+
+## Tela questionário
+|  **Nome**          | **Tipo**          | **Descrição**                                     | **Exemplo**                                    |
+|:------------------:|-------------------|---------------------------------------------------|------------------------------------------------|
+| Gênero             | Botão             | Gêneroes escolhido pelo usuário                   | Terror                                         |
+| País               | Botão             | País escolhido pelo usuário                       | Brasil                                         |
+| Indicado ao óscar  | Botão             | Indicado ao não ao óscar  escolhido pelo usuário  | Sim                                            |
+| Ator               | Botão             | Ator escolhido eplo usuário                       | Tom Holland                                    |
+
+## Tela recomendação
+|  **Nome**          | **Tipo**          | **Descrição**                                     | **Exemplo**                                    |
+|:------------------:|-------------------|---------------------------------------------------|------------------------------------------------|
+| Nome do filme      | Texto             | Nome do filme recomendado                         | A culpa é das estrelas                         |
+| Capa do filme      | Imagem            | Capa do filme recomendado                         | Imagem X                                       |
+
+## Tela detalhes
+|  **Nome**          | **Tipo**          | **Descrição**                                     | **Exemplo**                                    |
+|:------------------:|-------------------|---------------------------------------------------|------------------------------------------------|
+| Título             | Texto             | Título do filme                                   | Terror                                         |
+| Capa do filme      | Imagem            | Capa do filme                                     | Brasil                                         |
+| Favoritar          | Botão             | Colocar o filme na lista de favoritos             | "Favoritar"                                    |
+
+## Tela perfil do usuário
+|  **Nome**          | **Tipo**          | **Descrição**                                     | **Exemplo**                                    |
+|:------------------:|-------------------|---------------------------------------------------|------------------------------------------------|
+| Nome               | Texto             | Nome do usuário                                   | Ana                                            |
+| Email              | Texto             | Email do usuário                                  | magynifico.kkskj@gmail.com                     |
+| Favoritos          | Imagem            | Lista de filmes favoritos do usuário              | "Lista do usuário"                             |
 
