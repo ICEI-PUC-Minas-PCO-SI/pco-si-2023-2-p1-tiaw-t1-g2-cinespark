@@ -1,6 +1,6 @@
 Nome:
 
-Ana Júlia: 
+Ana Júlia: funcionalidades da tela questionário, API, Get das informações pra retornar os filmes 
 
 Breno Ferreira:
 
