@@ -5,6 +5,12 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 ## Exemplos 
 
+![Tela de login](img/telaLoginapp.png)
+![Tela do questionário](img/telaQuestionarioapp.png)
+![Tela recomendação](img/telaRecomendaçãoapp.png)
+![Tela detalhes](img/telaDetalhesapp.png)
+![Tela Perfil do usuário](img/telaperfilapp.png)
+
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
