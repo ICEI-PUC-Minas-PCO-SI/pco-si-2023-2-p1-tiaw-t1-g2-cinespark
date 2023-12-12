@@ -6,8 +6,8 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 ## Exemplos 
 
 ![Tela de login](img/telaLoginapp.png)
-![Tela do questionário](img/telaQuestionarioapp.png)
-![Tela recomendação](img/telaRecomendaçãoapp.png)
+![Tela questionário](img/telaQusetionarioapp.png)
+![Tela recomendação](img/telaRecomendaçaoapp.png)
 ![Tela detalhes](img/telaDetalhesapp.png)
 ![Tela Perfil do usuário](img/telaperfilapp.png)
 
