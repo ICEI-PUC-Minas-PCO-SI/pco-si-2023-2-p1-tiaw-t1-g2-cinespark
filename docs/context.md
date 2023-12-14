@@ -17,10 +17,10 @@ Com o aumento constante da oferta de filmes e séries, os usuários enfrentam de
 
 O CineSpark busca otimizar tempo na hora de selecionar um filme, atuando de forma simples e efetiva, solicitando especificações sobre o conteúdo que o usuário deseja assistir e recomendando tópicos baseados nos filmes préviamente assistidos.
 
-> - • Direcionar o usuário para conteúdos de sua preferência.
-> - • Otimizar tempo e trazer praticidade ao selecionar um filme.
-> - • Apresentar recomendações baseadas em conteúdos préviamente assistidos pelo usuário.
-> - • Sanar o contratempo causado pela indecisão ao selecionar o conteúdo que deseja assistir.
+ • Direcionar o usuário para conteúdos de sua preferência.
+ • Otimizar tempo e trazer praticidade ao selecionar um filme.
+ • Apresentar recomendações baseadas em conteúdos préviamente assistidos pelo usuário.
+ • Sanar o contratempo causado pela indecisão ao selecionar o conteúdo que deseja assistir.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
