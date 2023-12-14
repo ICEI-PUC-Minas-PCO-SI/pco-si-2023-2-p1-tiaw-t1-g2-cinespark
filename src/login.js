@@ -4,13 +4,19 @@ async function login() {
     const email = document.getElementById('loginEmail').value;
     const senha = document.getElementById('loginSenha').value;
 
+    // Verifica se os campos estão vazios
+    if (!email || !senha) {
+        alert('Por favor, preencha todos os campos de login.');
+        return;
+    }
+
     const response = await fetch('https://db-json-cinespark.vercel.app/usuarios');
     const usuarios = await response.json();
 
     const usuarioAutenticado = usuarios.find(user => user.email === email && user.senha === senha);
-    sessionStorage.setItem("userid", usuarioAutenticado.id);
 
     if (usuarioAutenticado) {
+        sessionStorage.setItem("userid", usuarioAutenticado.id);
         alert('Login bem-sucedido!');
         // Redirecionar para outra página após o login
         window.location.href = './Telaquestionario.html'; // Substitua 'pagina_solicitada.html' pelo caminho da sua página
@@ -18,6 +24,7 @@ async function login() {
         alert('Email ou senha incorretos');
     }
 }
+
 
 async function registrar() {
     const nome = document.getElementById('nomeRegistro').value;
