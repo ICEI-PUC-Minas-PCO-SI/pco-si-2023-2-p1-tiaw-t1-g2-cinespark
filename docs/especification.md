@@ -57,12 +57,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | |
-|RF-002| O usuário poderá selecionar o gênero, país, indicado ou não ao óscar e ator/diretor de sua preferência, deixando que o aplicativo selecione aleatoriamente o filme. | ALTA | |
-|RF-003| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | |
-|RF-004| O aplicativo exibira o filme com capa, afim de facilitar a busca pelo filme em outras plataformas. | MÉDIA | |
-|RF-005| Os usuários poderão favoritar os filmes. | MÉDIA | |
-|RF-006| O usuário poderá acessar a lista de filmes favoritos. | MÉDIA | |
+|RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | LUCAS |
+|RF-002| O usuário poderá visualizar seu próprio perfil com seus dados. | BAIXA | LUCAS | 
+|RF-002| O usuário poderá selecionar o gênero, país, indicado ou não ao óscar e ator/diretor de sua preferência, deixando que o aplicativo selecione aleatoriamente o filme. | ALTA | ANA JÚLIA |
+|RF-003| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | ANA JÚLIA |
+|RF-004| O aplicativo exibira o filme com capa, afim de facilitar a busca pelo filme em outras plataformas. | MÉDIA | ANA JÚLIA |
+|RF-005| Os usuários poderão favoritar os filmes. | MÉDIA | RAFAEL |
+|RF-006| O usuário poderá acessar a lista de filmes favoritos. | MÉDIA | RAFAEL |
 
 
 ### Requisitos não Funcionais
