@@ -31,6 +31,13 @@ async function registrar() {
     const email = document.getElementById('emailRegistro').value;
     const senha = document.getElementById('senhaRegistro').value;
 
+    // Verifica se o formato do e-mail é válido
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert('Por favor, insira um endereço de e-mail válido.');
+        return;
+    }
+
     const novoUsuario = {
         nome: nome,
         email: email,
