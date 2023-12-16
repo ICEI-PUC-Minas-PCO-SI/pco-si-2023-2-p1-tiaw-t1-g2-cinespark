@@ -14,4 +14,4 @@
 ## Wireframes
 
 ![Wireframe 1](img/WireframeLogin.png)
-![Wireframe 2](
+![Wireframe 2](img/questionarionew.png)
