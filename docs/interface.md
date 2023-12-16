@@ -7,7 +7,7 @@
 
 ## User Flow
 
-![UserFlow](img/UserflowB.jpg)
+![UserFlow](img/userflownew.png)
 
 
 
