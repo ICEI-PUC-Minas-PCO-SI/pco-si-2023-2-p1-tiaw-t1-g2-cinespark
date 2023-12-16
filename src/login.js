@@ -38,6 +38,14 @@ async function registrar() {
         return;
     }
 
+    if (!email || !senha || !nome){
+        alert("Preencha todos os campos para poder registrar")
+    }
+    if (!senha){
+        alert("Insira uma senha para registrar")
+    }
+    
+
     const novoUsuario = {
         nome: nome,
         email: email,
