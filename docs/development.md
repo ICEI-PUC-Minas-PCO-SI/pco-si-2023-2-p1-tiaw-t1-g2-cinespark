@@ -19,13 +19,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Artefato Criado |
 |------|-----------------------------------------|----| ----|
-|RF-001| O usuário poderá criar uma  conta inserindo seus dados. | ALTA | login.js |
-|RF-002| O usuário poderá selecionar a década e o gênero de preferência, deixando que o aplicativo selecione aleatoriamente o filme, ou poderá preencher um formulário antes, deixando o aplicativo gerar um filme de acordo com as preferências do usuário. | ALTA | Telaquestionario.html |
-|RF-003| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | script.js |
-|RF-004| Ao exibir o filme recomendado, o aplicativo deverá também exibir foto de capa do filme, além de uma sinopse e classificação. | MÉDIA | telaFilme.html |
-|RF-006| Os usuários poderão visualizar detalhes do filme, exemplo: diretor, elenco, etc. | BAIXA | telaFilme.html |
-|RF-007| Os usuários poderão deixar uma classificação e comentários sobre o filme assistido, auxiliando outros usuários na hora de escolher. | MÉDIA | telaFilme.html |
-|RF-008| Os usuários poderão favoritar os filmes e acessar o histórico dos filmes já vistos ou pesquisados. | BAIXA | telaPerfil.html |
+
+|RF-001| O usuário poderá criar uma conta inserindo seus dados. | ALTA | login.js |
+|RF-002| O usuário poderá visualizar seu próprio perfil com seus dados. | ALTA | telaPerfil.html |
+|RF-003| O usuário poderá selecionar o gênero, país, indicado ou não ao óscar e ator/diretor de sua preferência, deixando que o aplicativo selecione aleatoriamente o filme. | ALTA | script.js |
+|RF-004| O aplicativo vai usar as preferências do usuário para recomendar um filme. | MÉDIA | script.js |
+|RF-005| O aplicativo exibira o filme com capa, afim de facilitar a busca pelo filme em outras plataformas. | MÉDIA | telaFilme.html |
+|RF-006| Os usuários poderão favoritar os filmes. | MÉDIA | telaFilme.html |
+|RF-007| O usuário poderá acessar a lista de filmes favoritos. | BAIXA | telaLogin.html |
+
 
 ## Descrição das estruturas:
 
@@ -56,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**          | **Tipo**          | **Descrição**                                     | **Exemplo**                                    |
 |:------------------:|-------------------|---------------------------------------------------|------------------------------------------------|
 | Título             | Texto             | Título do filme                                   | Terror                                         |
-| Capa do filme      | Imagem            | Capa do filme                                     | Brasil                                         |
+| Capa do filme      | Imagem            | Capa do filme                                     | Imagem X                                       |
 | Favoritar          | Botão             | Colocar o filme na lista de favoritos             | "Favoritar"                                    |
 
 ## Tela perfil do usuário
