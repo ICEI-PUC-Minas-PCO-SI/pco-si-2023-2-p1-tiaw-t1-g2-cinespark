@@ -104,6 +104,12 @@ function recomendar() {
             console.error('Erro ao obter informações do ator:', error.message);
         });
 }
+document.addEventListener('keyup', function(event) {
+    if (event.key === 'Enter') {
+        recomendar();
+    }
+});
+
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
