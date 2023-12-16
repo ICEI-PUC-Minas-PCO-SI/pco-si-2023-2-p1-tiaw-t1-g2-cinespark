@@ -19,7 +19,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Artefato Criado |
 |------|-----------------------------------------|----| ----|
-
 |RF-001| O usuário poderá criar uma conta inserindo seus dados. | ALTA | login.js |
 |RF-002| O usuário poderá visualizar seu próprio perfil com seus dados. | ALTA | telaPerfil.html |
 |RF-003| O usuário poderá selecionar o gênero, país, indicado ou não ao óscar e ator/diretor de sua preferência, deixando que o aplicativo selecione aleatoriamente o filme. | ALTA | script.js |
