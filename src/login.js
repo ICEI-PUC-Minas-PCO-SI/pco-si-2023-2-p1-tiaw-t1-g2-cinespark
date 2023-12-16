@@ -31,16 +31,17 @@ async function registrar() {
     const email = document.getElementById('emailRegistro').value;
     const senha = document.getElementById('senhaRegistro').value;
 
-    // Verifica se o formato do e-mail é válido
+    // Verifica se todos os campos estão preenchidos
+    if (!nome || !email || !senha) {
+        alert('Por favor, preencha todos os campos para registrar.');
+        return;
+    }
 
-    if (!email || !senha || !nome){
-        alert("Preencha todos os campos para poder registrar")
-    }else{
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert('Por favor, insira um endereço de e-mail válido.');
-            return;
-        }
+    // Verifica se o formato do e-mail é válido
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert('Por favor, insira um endereço de e-mail válido.');
+        return;
     }
 
     const novoUsuario = {
