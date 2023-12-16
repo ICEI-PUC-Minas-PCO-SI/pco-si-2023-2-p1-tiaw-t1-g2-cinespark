@@ -13,5 +13,7 @@
 
 ## Wireframes
 
-![Wireframe 1](img/WireframeLogin.png)
+![Wireframe 1](img/loginnew.png)
 ![Wireframe 2](img/questionarionew.png)
+![Wireframe 3](img/detalhesnew.png)
+![Wireframe 4](img/usuarionew.png)
