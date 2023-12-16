@@ -31,7 +31,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 **Caso de Teste** | **CT02 - Inserir preferêcias para a recomedação**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa gênero, país, indicado ou não ao óscar e ator para gerar a recomendação.
-**Requisitos associados** | RF-002
+**Requisitos associados** | RF-003
 **Resultado esperado** | Inserção das preferências do usuário
 **Dados de entrada** | Selecionar a opção desejda no formulário de preferências.
 **Resultado obtido** | Sucesso.
@@ -39,7 +39,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 **Caso de Teste** | **CT03 - Favoritar filme**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário coloca um filme na lista de favoritos.
-**Requisitos associados** | RF-008
+**Requisitos associados** | RF-005
 **Resultado esperado** | Favoritar um filme, adicionado-o a sua lista de favoritos.
 **Dados de entrada** | Selecionar se o filme é ou não favorito.
 **Resultado obtido** | Sucesso.

@@ -7,14 +7,13 @@
 
 ## User Flow
 
-![UserFlow](img/UserflowB.jpg)
+![UserFlow](img/userflownew.png)
 
 
 
 ## Wireframes
 
-![Wireframe 1](img/Wireframe1.png)
-![Wireframe 2](img/Wireframe2.png)
-![Wireframe 3](img/Wireframe3.png)
-![Wireframe 4](img/WireframeUsuario.png)
-![Wireframe 5](img/WireframeLogin.png)
+![Wireframe 1](img/loginnew.png)
+![Wireframe 2](img/questionarionew.png)
+![Wireframe 3](img/detalhesnew.png)
+![Wireframe 4](img/usuarionew.png)
